@@ -1,0 +1,638 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		55F0085C2ADAF12F007D0E4C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55F0085B2ADAF12F007D0E4C /* AppDelegate.swift */; };
+		55F0085E2ADAF12F007D0E4C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55F0085D2ADAF12F007D0E4C /* SceneDelegate.swift */; };
+		55F008602ADAF12F007D0E4C /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55F0085F2ADAF12F007D0E4C /* MainViewController.swift */; };
+		55F008632ADAF12F007D0E4C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55F008612ADAF12F007D0E4C /* Main.storyboard */; };
+		55F008652ADAF131007D0E4C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 55F008642ADAF131007D0E4C /* Assets.xcassets */; };
+		55F008682ADAF131007D0E4C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55F008662ADAF131007D0E4C /* LaunchScreen.storyboard */; };
+		55F008732ADAF131007D0E4C /* Piedra_Papel_TijeraTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55F008722ADAF131007D0E4C /* Piedra_Papel_TijeraTests.swift */; };
+		55F0087D2ADAF131007D0E4C /* Piedra_Papel_TijeraUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55F0087C2ADAF131007D0E4C /* Piedra_Papel_TijeraUITests.swift */; };
+		55F0087F2ADAF131007D0E4C /* Piedra_Papel_TijeraUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55F0087E2ADAF131007D0E4C /* Piedra_Papel_TijeraUITestsLaunchTests.swift */; };
+		55F0088F2ADAFA10007D0E4C /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 55F0088E2ADAFA10007D0E4C /* MainViewController.xib */; };
+		55F008922ADB2043007D0E4C /* RoundPlay.xib in Resources */ = {isa = PBXBuildFile; fileRef = 55F008912ADB2043007D0E4C /* RoundPlay.xib */; };
+		55F008942ADB20C6007D0E4C /* RoundPlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55F008932ADB20C6007D0E4C /* RoundPlay.swift */; };
+		55F008962ADB2CC4007D0E4C /* InfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55F008952ADB2CC4007D0E4C /* InfoViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		55F0086F2ADAF131007D0E4C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 55F008502ADAF12F007D0E4C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 55F008572ADAF12F007D0E4C;
+			remoteInfo = Piedra_Papel_Tijera;
+		};
+		55F008792ADAF131007D0E4C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 55F008502ADAF12F007D0E4C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 55F008572ADAF12F007D0E4C;
+			remoteInfo = Piedra_Papel_Tijera;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		55F008582ADAF12F007D0E4C /* Piedra_Papel_Tijera.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Piedra_Papel_Tijera.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		55F0085B2ADAF12F007D0E4C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		55F0085D2ADAF12F007D0E4C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		55F0085F2ADAF12F007D0E4C /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		55F008622ADAF12F007D0E4C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		55F008642ADAF131007D0E4C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		55F008672ADAF131007D0E4C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		55F008692ADAF131007D0E4C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		55F0086E2ADAF131007D0E4C /* Piedra_Papel_TijeraTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Piedra_Papel_TijeraTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		55F008722ADAF131007D0E4C /* Piedra_Papel_TijeraTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Piedra_Papel_TijeraTests.swift; sourceTree = "<group>"; };
+		55F008782ADAF131007D0E4C /* Piedra_Papel_TijeraUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Piedra_Papel_TijeraUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		55F0087C2ADAF131007D0E4C /* Piedra_Papel_TijeraUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Piedra_Papel_TijeraUITests.swift; sourceTree = "<group>"; };
+		55F0087E2ADAF131007D0E4C /* Piedra_Papel_TijeraUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Piedra_Papel_TijeraUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		55F0088E2ADAFA10007D0E4C /* MainViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
+		55F008912ADB2043007D0E4C /* RoundPlay.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RoundPlay.xib; sourceTree = "<group>"; };
+		55F008932ADB20C6007D0E4C /* RoundPlay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundPlay.swift; sourceTree = "<group>"; };
+		55F008952ADB2CC4007D0E4C /* InfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		55F008552ADAF12F007D0E4C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55F0086B2ADAF131007D0E4C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55F008752ADAF131007D0E4C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		55F0084F2ADAF12F007D0E4C = {
+			isa = PBXGroup;
+			children = (
+				55F0085A2ADAF12F007D0E4C /* Piedra_Papel_Tijera */,
+				55F008712ADAF131007D0E4C /* Piedra_Papel_TijeraTests */,
+				55F0087B2ADAF131007D0E4C /* Piedra_Papel_TijeraUITests */,
+				55F008592ADAF12F007D0E4C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		55F008592ADAF12F007D0E4C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				55F008582ADAF12F007D0E4C /* Piedra_Papel_Tijera.app */,
+				55F0086E2ADAF131007D0E4C /* Piedra_Papel_TijeraTests.xctest */,
+				55F008782ADAF131007D0E4C /* Piedra_Papel_TijeraUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		55F0085A2ADAF12F007D0E4C /* Piedra_Papel_Tijera */ = {
+			isa = PBXGroup;
+			children = (
+				55F008902ADB1FDB007D0E4C /* GameModes */,
+				55F0088B2ADAF834007D0E4C /* MainView */,
+				55F008612ADAF12F007D0E4C /* Main.storyboard */,
+				55F0085B2ADAF12F007D0E4C /* AppDelegate.swift */,
+				55F0085D2ADAF12F007D0E4C /* SceneDelegate.swift */,
+				55F008642ADAF131007D0E4C /* Assets.xcassets */,
+				55F008662ADAF131007D0E4C /* LaunchScreen.storyboard */,
+				55F008692ADAF131007D0E4C /* Info.plist */,
+				55F008952ADB2CC4007D0E4C /* InfoViewController.swift */,
+			);
+			path = Piedra_Papel_Tijera;
+			sourceTree = "<group>";
+		};
+		55F008712ADAF131007D0E4C /* Piedra_Papel_TijeraTests */ = {
+			isa = PBXGroup;
+			children = (
+				55F008722ADAF131007D0E4C /* Piedra_Papel_TijeraTests.swift */,
+			);
+			path = Piedra_Papel_TijeraTests;
+			sourceTree = "<group>";
+		};
+		55F0087B2ADAF131007D0E4C /* Piedra_Papel_TijeraUITests */ = {
+			isa = PBXGroup;
+			children = (
+				55F0087C2ADAF131007D0E4C /* Piedra_Papel_TijeraUITests.swift */,
+				55F0087E2ADAF131007D0E4C /* Piedra_Papel_TijeraUITestsLaunchTests.swift */,
+			);
+			path = Piedra_Papel_TijeraUITests;
+			sourceTree = "<group>";
+		};
+		55F0088B2ADAF834007D0E4C /* MainView */ = {
+			isa = PBXGroup;
+			children = (
+				55F0085F2ADAF12F007D0E4C /* MainViewController.swift */,
+				55F0088E2ADAFA10007D0E4C /* MainViewController.xib */,
+			);
+			path = MainView;
+			sourceTree = "<group>";
+		};
+		55F008902ADB1FDB007D0E4C /* GameModes */ = {
+			isa = PBXGroup;
+			children = (
+				55F008912ADB2043007D0E4C /* RoundPlay.xib */,
+				55F008932ADB20C6007D0E4C /* RoundPlay.swift */,
+			);
+			path = GameModes;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		55F008572ADAF12F007D0E4C /* Piedra_Papel_Tijera */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 55F008822ADAF131007D0E4C /* Build configuration list for PBXNativeTarget "Piedra_Papel_Tijera" */;
+			buildPhases = (
+				55F008542ADAF12F007D0E4C /* Sources */,
+				55F008552ADAF12F007D0E4C /* Frameworks */,
+				55F008562ADAF12F007D0E4C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Piedra_Papel_Tijera;
+			productName = Piedra_Papel_Tijera;
+			productReference = 55F008582ADAF12F007D0E4C /* Piedra_Papel_Tijera.app */;
+			productType = "com.apple.product-type.application";
+		};
+		55F0086D2ADAF131007D0E4C /* Piedra_Papel_TijeraTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 55F008852ADAF131007D0E4C /* Build configuration list for PBXNativeTarget "Piedra_Papel_TijeraTests" */;
+			buildPhases = (
+				55F0086A2ADAF131007D0E4C /* Sources */,
+				55F0086B2ADAF131007D0E4C /* Frameworks */,
+				55F0086C2ADAF131007D0E4C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				55F008702ADAF131007D0E4C /* PBXTargetDependency */,
+			);
+			name = Piedra_Papel_TijeraTests;
+			productName = Piedra_Papel_TijeraTests;
+			productReference = 55F0086E2ADAF131007D0E4C /* Piedra_Papel_TijeraTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		55F008772ADAF131007D0E4C /* Piedra_Papel_TijeraUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 55F008882ADAF131007D0E4C /* Build configuration list for PBXNativeTarget "Piedra_Papel_TijeraUITests" */;
+			buildPhases = (
+				55F008742ADAF131007D0E4C /* Sources */,
+				55F008752ADAF131007D0E4C /* Frameworks */,
+				55F008762ADAF131007D0E4C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				55F0087A2ADAF131007D0E4C /* PBXTargetDependency */,
+			);
+			name = Piedra_Papel_TijeraUITests;
+			productName = Piedra_Papel_TijeraUITests;
+			productReference = 55F008782ADAF131007D0E4C /* Piedra_Papel_TijeraUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		55F008502ADAF12F007D0E4C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					55F008572ADAF12F007D0E4C = {
+						CreatedOnToolsVersion = 15.0;
+					};
+					55F0086D2ADAF131007D0E4C = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = 55F008572ADAF12F007D0E4C;
+					};
+					55F008772ADAF131007D0E4C = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = 55F008572ADAF12F007D0E4C;
+					};
+				};
+			};
+			buildConfigurationList = 55F008532ADAF12F007D0E4C /* Build configuration list for PBXProject "Piedra_Papel_Tijera" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 55F0084F2ADAF12F007D0E4C;
+			productRefGroup = 55F008592ADAF12F007D0E4C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				55F008572ADAF12F007D0E4C /* Piedra_Papel_Tijera */,
+				55F0086D2ADAF131007D0E4C /* Piedra_Papel_TijeraTests */,
+				55F008772ADAF131007D0E4C /* Piedra_Papel_TijeraUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		55F008562ADAF12F007D0E4C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55F008922ADB2043007D0E4C /* RoundPlay.xib in Resources */,
+				55F008682ADAF131007D0E4C /* LaunchScreen.storyboard in Resources */,
+				55F008652ADAF131007D0E4C /* Assets.xcassets in Resources */,
+				55F008632ADAF12F007D0E4C /* Main.storyboard in Resources */,
+				55F0088F2ADAFA10007D0E4C /* MainViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55F0086C2ADAF131007D0E4C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55F008762ADAF131007D0E4C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		55F008542ADAF12F007D0E4C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55F008942ADB20C6007D0E4C /* RoundPlay.swift in Sources */,
+				55F008602ADAF12F007D0E4C /* MainViewController.swift in Sources */,
+				55F0085C2ADAF12F007D0E4C /* AppDelegate.swift in Sources */,
+				55F0085E2ADAF12F007D0E4C /* SceneDelegate.swift in Sources */,
+				55F008962ADB2CC4007D0E4C /* InfoViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55F0086A2ADAF131007D0E4C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55F008732ADAF131007D0E4C /* Piedra_Papel_TijeraTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55F008742ADAF131007D0E4C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55F0087D2ADAF131007D0E4C /* Piedra_Papel_TijeraUITests.swift in Sources */,
+				55F0087F2ADAF131007D0E4C /* Piedra_Papel_TijeraUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		55F008702ADAF131007D0E4C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 55F008572ADAF12F007D0E4C /* Piedra_Papel_Tijera */;
+			targetProxy = 55F0086F2ADAF131007D0E4C /* PBXContainerItemProxy */;
+		};
+		55F0087A2ADAF131007D0E4C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 55F008572ADAF12F007D0E4C /* Piedra_Papel_Tijera */;
+			targetProxy = 55F008792ADAF131007D0E4C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		55F008612ADAF12F007D0E4C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				55F008622ADAF12F007D0E4C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		55F008662ADAF131007D0E4C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				55F008672ADAF131007D0E4C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		55F008802ADAF131007D0E4C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		55F008812ADAF131007D0E4C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		55F008832ADAF131007D0E4C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Piedra_Papel_Tijera/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Gustavo-Ali.Piedra-Papel-Tijera";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		55F008842ADAF131007D0E4C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Piedra_Papel_Tijera/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Gustavo-Ali.Piedra-Papel-Tijera";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		55F008862ADAF131007D0E4C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Gustavo-Ali.Piedra-Papel-TijeraTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Piedra_Papel_Tijera.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Piedra_Papel_Tijera";
+			};
+			name = Debug;
+		};
+		55F008872ADAF131007D0E4C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Gustavo-Ali.Piedra-Papel-TijeraTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Piedra_Papel_Tijera.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Piedra_Papel_Tijera";
+			};
+			name = Release;
+		};
+		55F008892ADAF131007D0E4C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Gustavo-Ali.Piedra-Papel-TijeraUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Piedra_Papel_Tijera;
+			};
+			name = Debug;
+		};
+		55F0088A2ADAF131007D0E4C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Gustavo-Ali.Piedra-Papel-TijeraUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Piedra_Papel_Tijera;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		55F008532ADAF12F007D0E4C /* Build configuration list for PBXProject "Piedra_Papel_Tijera" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55F008802ADAF131007D0E4C /* Debug */,
+				55F008812ADAF131007D0E4C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		55F008822ADAF131007D0E4C /* Build configuration list for PBXNativeTarget "Piedra_Papel_Tijera" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55F008832ADAF131007D0E4C /* Debug */,
+				55F008842ADAF131007D0E4C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		55F008852ADAF131007D0E4C /* Build configuration list for PBXNativeTarget "Piedra_Papel_TijeraTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55F008862ADAF131007D0E4C /* Debug */,
+				55F008872ADAF131007D0E4C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		55F008882ADAF131007D0E4C /* Build configuration list for PBXNativeTarget "Piedra_Papel_TijeraUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55F008892ADAF131007D0E4C /* Debug */,
+				55F0088A2ADAF131007D0E4C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 55F008502ADAF12F007D0E4C /* Project object */;
+}
